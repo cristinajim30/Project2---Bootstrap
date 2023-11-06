@@ -1,0 +1,105 @@
+form{
+    padding: 40px;
+    min-width: 70%;
+    box-shadow: 0px 0px 4px grey;
+    border-radius: 6px;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    margin: 40px 20px;
+    display: inline-block;
+}
+
+input, textarea{
+    font-size: 16px;
+    width: 95%;
+    color: rgb(73, 72, 72);
+    border: none;
+    border-bottom: 1px solid rgb(144, 41, 158);;
+    outline: none;
+    padding: 15px;
+    font-family: 'Poppins';
+    font-weight:600;
+
+}
+textarea{
+    resize: none;
+}
+label{
+    display: flex;
+    padding: 15px;
+    margin-left: 15px;
+    width: auto;
+}
+
+.form-select{
+    width: auto; 
+}
+.form-group{
+    margin-bottom: 10px;
+}
+
+.container-fluid p{
+    font-size: 1.25em;
+    padding: 20px 40px;
+    margin: 20px;
+    word-break: normal;
+}
+
+#country_container{
+    display: flex;
+}
+.buttom{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#boton{
+    background-color: var(--bs-purple);
+    border-radius: 3px;
+    border: 2px solid var(--bs-indigo);
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    width: 20%;
+    padding: 15px;
+    text-align: center;
+    
+}
+#boton:hover{
+    cursor: pointer;
+    background: #a957d4;
+    transition: all .3s ease;
+
+}
+#titlecontainer p{
+    font-size: 1.25em;
+    padding: 20px 40px;
+    margin: 20px;
+    word-break: normal;
+}
+
+/*CSS for stores.html*/
+.card{
+    width: 350px;
+    height: auto;
+    margin: 40px;
+}
+.card-text{
+    font-size: 1rem;
+}
+.card-title{
+    font-size: 1.30rem;
+}
+.card-body{
+    background-color: var(--bs-gray-300);
+}
+.card-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}

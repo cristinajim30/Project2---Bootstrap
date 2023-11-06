@@ -1,0 +1,37 @@
+.listproducts li a{
+    font-family: 'Dancing';
+    font-weight: 600;
+    font-size: 3em;
+    text-decoration:none;
+    color: rgb(121, 67, 136);
+}
+.listproducts li a:hover {
+    color: #bebcbc;
+
+}
+.listproducts li{
+    margin: 15px;
+}
+.listproducts{
+    margin-top: 50px;
+}
+#titlecontainer p{
+    font-size: 1.25em;
+}
+
+.container-fluid p{
+    font-size: 1.25em;
+}
+.grid img{
+    margin: 20px;
+}
+
+.grid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding: 0px 30px;
+}
+
+
