@@ -56,6 +56,7 @@ label{
 }
 
 #boton{
+    /*Colors from bootstrap.css*/
     background-color: var(--bs-purple);
     border-radius: 3px;
     border: 2px solid var(--bs-indigo);
